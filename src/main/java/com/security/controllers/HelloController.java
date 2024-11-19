@@ -10,4 +10,9 @@ public class HelloController {
     public String getString(){
         return "Success!!!";
     }
+
+    @GetMapping("/books")
+    public String getAllBooks(){
+        return "got all books!!!!!!!!!!!!";
+    }
 }
